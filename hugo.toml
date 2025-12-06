@@ -20,9 +20,8 @@ theme = 'PaperMod'
     Content = "A modern, revolutionary approach to teaching computer science"
   
   # Social icons configuration
-  # Temporarily simplified to avoid schema JSON issues
-  # [params.socialIcons]
-  #   github = "https://github.com/aifirstprogramming"
+  [params.socialIcons]
+    github = "https://github.com/aifirstprogramming"
   
   # PaperMod display options
   ShowReadingTime = true
