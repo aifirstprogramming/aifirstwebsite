@@ -19,14 +19,10 @@ GitHub Pages website for the AI First Book Series, built with Hugo.
 
 2. Initialize the theme (PaperMod):
    ```bash
-   git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
    git submodule update --init --recursive
    ```
-
-   Or if you're cloning the repository and the theme is already set up:
-   ```bash
-   git submodule update --init --recursive
-   ```
+   
+   The `.gitmodules` file is already configured. This command will clone the PaperMod theme into the `themes/` directory.
 
 ### Local Development
 
