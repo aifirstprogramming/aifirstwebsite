@@ -1,0 +1,23 @@
+{
+  "name": "aifirstwebsite",
+  "version": "1.0.0",
+  "description": "GitHub Pages website for the AI First Book Series",
+  "scripts": {
+    "build": "hugo",
+    "dev": "hugo server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aifirstprogramming/aifirstwebsite.git"
+  },
+  "keywords": [
+    "hugo",
+    "static-site",
+    "ai-first",
+    "programming",
+    "education"
+  ],
+  "author": "Stephen Chin, Cassandra Chin, Jennifer Reif",
+  "license": "Apache-2.0"
+}
+
