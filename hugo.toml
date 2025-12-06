@@ -1,0 +1,46 @@
+baseURL = 'https://aifirstprogramming.github.io/aifirstwebsite/'
+languageCode = 'en-us'
+title = 'AI First Programming'
+theme = 'PaperMod'
+
+[params]
+  author = "Stephen Chin, Cassandra Chin, and Jennifer Reif"
+  description = "A modern, AI first approach to teaching computer science"
+  keywords = ["AI", "Programming", "Education", "Java", "Python", "VS Code"]
+  
+  # PaperMod theme settings
+  env = "production"
+  title = "AI First Programming"
+  description = "A modern, AI first approach to teaching computer science"
+  
+  [params.assets]
+    disableFingerprinting = false
+    disableHLJS = false
+  
+  [params.homeInfoParams]
+    Title = "AI First Programming"
+    Content = "A modern, revolutionary approach to teaching computer science"
+  
+  [params.socialIcons]
+    github = "https://github.com/aifirstprogramming"
+  
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "books"
+    name = "Book Series"
+    url = "/book-series/"
+    weight = 2
+  [[menu.main]]
+    identifier = "extension"
+    name = "VS Code Extension"
+    url = "/vscode-extension/"
+    weight = 3
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
