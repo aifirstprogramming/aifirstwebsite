@@ -2,6 +2,7 @@
 title: "AI First Programming"
 date: 2025-01-27
 draft: false
+author: "Stephen Chin, Cassandra Chin, and Jennifer Reif"
 description: "A modern, AI first approach to teaching computer science. Learn programming with AI coding assistants from day one."
 ---
 
