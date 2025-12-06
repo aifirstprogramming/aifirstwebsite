@@ -10,8 +10,6 @@ theme = 'PaperMod'
   
   # PaperMod theme settings
   env = "production"
-  title = "AI First Programming"
-  description = "A modern, AI first approach to teaching computer science"
   
   [params.assets]
     disableFingerprinting = false
