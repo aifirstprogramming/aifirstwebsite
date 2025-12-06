@@ -19,9 +19,10 @@ theme = 'PaperMod'
     Title = "AI First Programming"
     Content = "A modern, revolutionary approach to teaching computer science"
   
-  # Social icons configuration
-  [params.socialIcons]
-    github = "https://github.com/aifirstprogramming"
+  # Social icons configuration (array format required by PaperMod)
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/aifirstprogramming"
   
   # PaperMod display options
   ShowReadingTime = true
