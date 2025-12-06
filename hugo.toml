@@ -28,17 +28,17 @@ theme = 'PaperMod'
   [[menu.main]]
     identifier = "home"
     name = "Home"
-    url = "/"
+    url = ""
     weight = 1
   [[menu.main]]
     identifier = "books"
     name = "Book Series"
-    url = "/book-series/"
+    url = "book-series/"
     weight = 2
   [[menu.main]]
     identifier = "extension"
     name = "VS Code Extension"
-    url = "/vscode-extension/"
+    url = "vscode-extension/"
     weight = 3
 
 [outputs]
