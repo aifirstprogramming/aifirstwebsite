@@ -38,6 +38,20 @@ The AI First Programming series is published by **Apress** and currently include
 
 Each book is carefully designed so that AI-generated responses build topics incrementally, making complex concepts easy to learn and understand.
 
+### AI First CLI
+
+If you work in a terminal, the **aifirst** CLI is your companion. One line installs it:
+
+```bash
+curl -fsSL https://aifirstprogramming.com/install.sh | bash
+```
+
+It adds a book skill to Claude Code, Codex, and Antigravity, so when you ask for a book example your
+assistant gives you the book's exact code rather than its own version — and it keeps track of the
+exercises you've completed.
+
+[Learn more about the CLI →](/cli/)
+
 ### VS Code Extension
 
 To enhance your learning experience, we've created a companion **VS Code Extension** that provides:
@@ -54,8 +68,9 @@ To enhance your learning experience, we've created a companion **VS Code Extensi
 Ready to begin your AI First programming journey? 
 
 - [Explore the Book Series](/book-series/)
-- [Install the VS Code Extension](/vscode-extension/)
-- Visit the [extension GitHub repository](https://github.com/aifirstprogramming/aifirstextension)
+- [Install the CLI](/cli/) — for working in a terminal
+- [Install the VS Code Extension](/vscode-extension/) — for working in VS Code
+- Visit us on [GitHub](https://github.com/aifirstprogramming)
 
 ---
 
