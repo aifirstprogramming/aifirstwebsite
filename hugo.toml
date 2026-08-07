@@ -40,10 +40,15 @@ theme = 'PaperMod'
     url = "book-series/"
     weight = 2
   [[menu.main]]
+    identifier = "cli"
+    name = "CLI"
+    url = "cli/"
+    weight = 3
+  [[menu.main]]
     identifier = "extension"
     name = "VS Code Extension"
     url = "vscode-extension/"
-    weight = 3
+    weight = 4
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

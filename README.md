@@ -70,9 +70,34 @@ The site will be available at: `https://aifirstprogramming.github.io/aifirstwebs
 - `content/` - Markdown content files
   - `_index.md` - Homepage
   - `book-series/` - Book series page
+  - `cli/` - AI First CLI page
   - `vscode-extension/` - VS Code extension page
+- `static/` - Files served verbatim from the site root
+  - `install.sh`, `install.ps1` - CLI installers (see below)
+- `scripts/sync-installers.sh` - Refreshes those installers
 - `themes/` - Hugo themes (PaperMod)
 - `hugo.toml` - Hugo configuration
+
+## CLI installers
+
+The book prints these one-liners, so this site serves them from its root:
+
+```bash
+curl -fsSL https://aifirstprogramming.com/install.sh | bash   # macOS, Linux
+irm https://aifirstprogramming.com/install.ps1 | iex          # Windows
+```
+
+`static/install.sh` and `static/install.ps1` are **copies**. The originals live in
+[aifirstcli](https://github.com/aifirstprogramming/aifirstcli) under `install/`, and edits belong
+there. To pull the latest across:
+
+```bash
+./scripts/sync-installers.sh
+```
+
+They are committed rather than fetched at build time on purpose: this site must keep deploying even
+if the CLI repo is unreachable, and a change to what readers execute should be a reviewable diff
+rather than something that shifts silently under a published URL.
 
 ## License
 
