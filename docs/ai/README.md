@@ -16,6 +16,7 @@ Where a note and the site disagree, the site is right. For how to run and deploy
 | Note | Date | Subject |
 | --- | --- | --- |
 | [Serving the CLI installers](notes/2026-08-07-serving-the-cli-installers.md) | 2026-08-07 | Why `install.sh` and `install.ps1` are committed copies living in *this* repository rather than in the CLI repository that owns them |
+| [Re-sync installers after the aifirstcli progress-bar fix](notes/2026-08-09-installer-progress-sync.md) | 2026-08-09 | Pulling the `Get-Bar` clamp fix from aifirstcli into the hosted installer copies |
 
 ## Sessions behind this repository
 
