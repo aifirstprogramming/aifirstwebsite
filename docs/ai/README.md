@@ -16,6 +16,7 @@ Where a note and the site disagree, the site is right. For how to run and deploy
 | Note | Date | Subject |
 | --- | --- | --- |
 | [Serving the CLI installers](notes/2026-08-07-serving-the-cli-installers.md) | 2026-08-07 | Why `install.sh` and `install.ps1` are committed copies living in *this* repository rather than in the CLI repository that owns them |
+| [Download links, not manual steps](notes/2026-08-10-website-download-links.md) | 2026-08-10 | Why the Marketplace and Releases links replaced manual search steps, and why the CLI page links `/releases/latest` instead of a pinned tag |
 
 ## Sessions behind this repository
 

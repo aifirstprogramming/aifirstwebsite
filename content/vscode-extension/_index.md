@@ -25,13 +25,9 @@ The **AI First Programming** VS Code extension is a companion tool for the book 
 
 ### Installation
 
-You can find the AI First Programming extension in the VS Code Extension Marketplace.
+**[Install from the VS Code Marketplace →](https://marketplace.visualstudio.com/items?itemName=aifirstprogramming.ai-first-programming)**
 
-1. Open VS Code
-2. Click on the **Extensions** icon in the left toolbar (represented by 4 squares)
-3. Type **"ai first programming"** or **"ai first book"** in the search bar
-4. Look for the extension published by **Stephen Chin, Cassandra Chin, and Jennifer Reif** (the authors of the AI First series)
-5. Click **Install**
+Or search in VS Code: open the **Extensions** icon, type **"ai first programming"** or **"ai first book"**, and look for the extension published by **Stephen Chin, Cassandra Chin, and Jennifer Reif**.
 
 After installation, you'll see a new icon in the sidebar with a picture of a book that has "A" and "I" on the pages. Click this icon to open the extension.
 

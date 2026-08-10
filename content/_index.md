@@ -63,13 +63,13 @@ To enhance your learning experience, we've created a companion **VS Code Extensi
 
 [Learn more about the VS Code Extension →](/vscode-extension/)
 
-### Get Started
+### Download
 
-Ready to begin your AI First programming journey? 
+Ready to begin your AI First programming journey? Pick your tool and get started:
 
+- **[Download the CLI](/cli/)** — for working in a terminal
+- **[Download the VS Code Extension](/vscode-extension/)** — for working in VS Code
 - [Explore the Book Series](/book-series/)
-- [Install the CLI](/cli/) — for working in a terminal
-- [Install the VS Code Extension](/vscode-extension/) — for working in VS Code
 - Visit us on [GitHub](https://github.com/aifirstprogramming)
 
 ---

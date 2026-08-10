@@ -32,6 +32,14 @@ irm https://aifirstprogramming.com/install.ps1 | iex
 Nothing else is required — no Node, no Python, no JVM. The download is a single self-contained
 program with all the book content inside it, so it works offline once installed.
 
+### Download
+
+Grab the latest release directly from GitHub:
+
+**[Download the latest release →](https://github.com/aifirstprogramming/aifirstcli/releases/latest)**
+
+See the full [release history](https://github.com/aifirstprogramming/aifirstcli/releases) for older versions and changelogs.
+
 Then set up your AI tools:
 
 ```bash
