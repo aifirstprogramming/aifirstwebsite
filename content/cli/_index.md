@@ -40,6 +40,15 @@ Grab the latest release directly from GitHub:
 
 See the full [release history](https://github.com/aifirstprogramming/aifirstcli/releases) for older versions and changelogs.
 
+### Security and code signing
+
+AI First Programming has applied to the SignPath Foundation for open-source
+Windows code signing. Windows executables remain unsigned while that
+application is pending. The project's
+[code signing policy](https://github.com/aifirstprogramming/aifirstcli/blob/main/CODE_SIGNING_POLICY.md)
+documents privacy and network behavior, system changes, project roles, and the
+release approval process.
+
 Then set up your AI tools:
 
 ```bash

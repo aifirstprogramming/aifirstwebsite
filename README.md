@@ -101,4 +101,8 @@ rather than something that shifts silently under a published URL.
 
 ## License
 
-Apache License 2.0 - See LICENSE file for details.
+The website source and documentation are released under the
+[Apache License 2.0](LICENSE). See [NOTICE](NOTICE) for attribution.
+
+The license does not grant rights to the AI First names or logos. See
+[TRADEMARKS.md](TRADEMARKS.md).
