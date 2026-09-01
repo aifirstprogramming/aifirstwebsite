@@ -32,6 +32,10 @@ irm https://aifirstprogramming.com/install.ps1 | iex
 Nothing else is required — no Node, no Python, no JVM. The download is a single self-contained
 program with all the book content inside it, so it works offline once installed.
 
+The installer continues directly into guided setup. It asks which book you are
+reading, creates a learning workspace, and offers to start the built-in learner;
+there is no second initialization command to copy and paste.
+
 ### Download
 
 Grab the latest release directly from GitHub:
@@ -49,15 +53,9 @@ application is pending. The project's
 documents privacy and network behavior, system changes, project roles, and the
 release approval process.
 
-Then set up your AI tools:
-
-```bash
-aifirst init
-```
-
-This finds the tools you have installed, shows you what it found, and asks once before installing.
-It only ever writes into its own `aifirst` folder inside each tool — your settings, models, and
-logins are never touched, and `aifirst skill remove` undoes it cleanly.
+AI tools are optional. Setup finds any supported tools already installed and asks
+once before integrating them. If none are present, the built-in learner is ready
+immediately. Run `aifirst` later to reopen the readiness checklist and guided menu.
 
 ### Supported tools
 
@@ -68,7 +66,20 @@ logins are never touched, and `aifirst skill remove` undoes it cleanly.
 | Antigravity | A plugin for both the IDE and the `agy` CLI |
 | VS Code | Installs the AI First extension for you |
 
-### Working through the book
+### Built-in learning
+
+```bash
+aifirst learn
+```
+
+The built-in terminal learner needs no AI application, model, account, or API key.
+It walks through the next exercise with numbered choices, runs the book's trusted
+example, shows real output and the stored explanation, and records progress.
+Markdown is rendered for the terminal and code appears in syntax-highlighted
+panels. Replies animate at a fast readable pace; press Space or Enter to reveal
+the remainder of the current block, or use `aifirst learn --no-animation`.
+
+### Working through the book with an AI tool
 
 Ask for your next exercise:
 
@@ -90,7 +101,7 @@ paste a prompt from the page and let the CLI find it:
 aifirst search "Write a Hello World app"
 ```
 
-To write the book's code straight into a file:
+To write the book's code straight into a file from the command line:
 
 ```bash
 aifirst apply py-2-06

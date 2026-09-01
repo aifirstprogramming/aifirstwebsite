@@ -46,9 +46,9 @@ If you work in a terminal, the **aifirst** CLI is your companion. One line insta
 curl -fsSL https://aifirstprogramming.com/install.sh | bash
 ```
 
-It adds a book skill to Claude Code, Codex, and Antigravity, so when you ask for a book example your
-assistant gives you the book's exact code rather than its own version — and it keeps track of the
-exercises you've completed.
+It includes a guided offline learner that needs no AI account or tool, and can also
+add book skills to Claude Code, Codex, Antigravity, and VS Code. In every mode it
+serves the book's exact examples and keeps track of completed exercises.
 
 [Learn more about the CLI →](/cli/)
 
